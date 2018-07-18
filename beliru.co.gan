@@ -1,14 +1,14 @@
-<?xml version="1.0" encoding="UTF-8"?><project name="Untitled Gantt Project" company="" webLink="http://" view-date="2018-05-30" view-index="1" gantt-divider-location="390" resource-divider-location="252" version="2.8.8" locale="en_US">
+<?xml version="1.0" encoding="UTF-8"?><project name="Untitled Gantt Project" company="" webLink="http://" view-date="2018-05-20" view-index="0" gantt-divider-location="404" resource-divider-location="319" version="2.8.7" locale="en_ID">
     <description/>
-    <view zooming-state="default:2" id="gantt-chart">
-        <field id="tpd3" name="Name" width="253" order="0"/>
-        <field id="tpd4" name="Begin date" width="59" order="1"/>
-        <field id="tpd5" name="End date" width="59" order="2"/>
+    <view zooming-state="default:6" id="gantt-chart">
+        <field id="tpd3" name="Name" width="258" order="0"/>
+        <field id="tpd4" name="Begin date" width="64" order="1"/>
+        <field id="tpd5" name="End date" width="63" order="2"/>
         <option id="color.recent"><![CDATA[#000000]]></option>
     </view>
     <view id="resource-table">
-        <field id="0" name="Name" width="160" order="0"/>
-        <field id="1" name="Default role" width="88" order="1"/>
+        <field id="0" name="Name" width="193" order="0"/>
+        <field id="1" name="Default role" width="122" order="1"/>
     </view>
     <!-- -->
     <calendars base-id="uk.england">
@@ -63,60 +63,61 @@
             <taskproperty id="tpd8" name="coordinator" type="default" valuetype="text"/>
             <taskproperty id="tpd9" name="predecessorsr" type="default" valuetype="text"/>
         </taskproperties>
-        <task id="67" name="Analisa Kebutuhan Client" color="#8cb6ce" meeting="false" start="2018-06-01" duration="47" complete="0" thirdDate="2018-06-01" thirdDate-constraint="1" expand="true"/>
-        <task id="224" name="Quality Control" color="#8cb6ce" meeting="false" start="2018-06-27" duration="47" complete="0" thirdDate="2018-06-27" thirdDate-constraint="0" expand="true"/>
-        <task id="54" name="Analisa Masalah dan Resiko" color="#8cb6ce" meeting="false" start="2018-06-07" duration="2" complete="0" thirdDate="2018-06-07" thirdDate-constraint="0" expand="true"/>
-        <task id="0" name="Mengumpulkan Data dan Kebutuhan" color="#8cb6ce" meeting="false" start="2018-06-11" duration="3" complete="0" thirdDate="2018-06-11" thirdDate-constraint="0" expand="true"/>
-        <task id="59" name="Kebutuhan Awal Project" color="#8cb6ce" meeting="false" start="2018-06-15" duration="4" complete="0" thirdDate="2018-07-16" thirdDate-constraint="0" expand="true">
-            <task id="61" name="Deskripsi Project" color="#8cb6ce" meeting="false" start="2018-06-15" duration="1" complete="0" thirdDate="2018-06-15" thirdDate-constraint="0" expand="true"/>
-            <task id="62" name="Batasan Masalah" color="#8cb6ce" meeting="false" start="2018-06-15" duration="1" complete="0" thirdDate="2018-06-15" thirdDate-constraint="0" expand="true"/>
-            <task id="63" name="Perjanjian Kerja" color="#8cb6ce" meeting="false" start="2018-06-15" duration="1" complete="0" thirdDate="2018-06-15" thirdDate-constraint="0" expand="true"/>
-            <task id="64" name="Usability" color="#8cb6ce" meeting="false" start="2018-06-15" duration="2" complete="0" thirdDate="2018-06-15" thirdDate-constraint="0" expand="true"/>
-            <task id="65" name="Business Requirment Document" color="#8cb6ce" meeting="false" start="2018-06-18" duration="2" complete="0" thirdDate="2018-06-18" thirdDate-constraint="0" expand="true"/>
-            <task id="66" name="Konten Audit" color="#8cb6ce" meeting="false" start="2018-06-20" duration="1" complete="0" thirdDate="2018-06-20" thirdDate-constraint="0" expand="true"/>
+        <task id="59" name="Gathering" color="#8cb6ce" meeting="false" start="2018-06-01" duration="10" complete="0" thirdDate="2018-07-16" thirdDate-constraint="0" expand="true">
+            <task id="232" name="Meeting" color="#8cb6ce" meeting="false" start="2018-06-01" duration="1" complete="0" thirdDate="2018-07-18" thirdDate-constraint="0" expand="true">
+                <depend id="234" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="245" name="Scope Project" color="#8cb6ce" meeting="false" start="2018-06-01" duration="1" complete="0" thirdDate="2018-06-01" thirdDate-constraint="0" expand="true"/>
+            <task id="234" name="Analisa Kebutuhan" color="#8cb6ce" meeting="false" start="2018-06-04" duration="9" complete="0" thirdDate="2018-06-04" thirdDate-constraint="1" expand="true"/>
         </task>
-        <task id="36" name="Perencanaan Project" color="#8cb6ce" meeting="false" start="2018-06-21" duration="5" complete="9" thirdDate="2018-06-21" thirdDate-constraint="0" expand="true">
-            <task id="71" name="Penjelasan Sistem Kerja" color="#8cb6ce" meeting="false" start="2018-06-21" duration="2" complete="51" thirdDate="2018-06-21" thirdDate-constraint="0" expand="true"/>
-            <task id="38" name="Pembagian Tugas &amp; Posisi Tim" color="#8cb6ce" meeting="false" start="2018-06-21" duration="2" complete="0" thirdDate="2018-06-21" thirdDate-constraint="0" expand="true"/>
-            <task id="70" name="Penjelasan TimeLine" color="#8cb6ce" meeting="false" start="2018-06-21" duration="2" complete="0" thirdDate="2018-06-21" thirdDate-constraint="0" expand="true"/>
-            <task id="74" name="Penentuan Teknologi" color="#8cb6ce" meeting="false" start="2018-06-25" duration="1" complete="0" thirdDate="2018-06-25" thirdDate-constraint="0" expand="true"/>
-            <task id="75" name="Penentuan Server" color="#8cb6ce" meeting="false" start="2018-06-25" duration="1" complete="0" thirdDate="2018-06-25" thirdDate-constraint="0" expand="true"/>
-            <task id="87" name="Penentuan Algoritma" color="#8cb6ce" meeting="false" start="2018-06-25" duration="1" complete="0" thirdDate="2018-06-25" thirdDate-constraint="0" expand="true"/>
-            <task id="69" name="Manajement Masalah dan Resiko" color="#8cb6ce" meeting="false" start="2018-06-26" duration="2" complete="0" thirdDate="2018-06-26" thirdDate-constraint="0" expand="true"/>
+        <task id="36" name="Perencanaan Project" color="#8cb6ce" meeting="false" start="2018-06-18" duration="2" complete="8" thirdDate="2018-06-21" thirdDate-constraint="0" expand="true">
+            <task id="71" name="Penjelasan Sistem Kerja" color="#8cb6ce" meeting="false" start="2018-06-18" duration="1" complete="51" thirdDate="2018-06-18" thirdDate-constraint="0" expand="true">
+                <depend id="74" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="38" name="Pembagian Tugas &amp; Posisi Tim" color="#8cb6ce" meeting="false" start="2018-06-18" duration="1" complete="0" thirdDate="2018-06-18" thirdDate-constraint="0" expand="true"/>
+            <task id="70" name="Penjelasan TimeLine" color="#8cb6ce" meeting="false" start="2018-06-18" duration="1" complete="0" thirdDate="2018-06-18" thirdDate-constraint="0" expand="true"/>
+            <task id="74" name="Penentuan Teknologi" color="#8cb6ce" meeting="false" start="2018-06-19" duration="1" complete="0" thirdDate="2018-06-19" thirdDate-constraint="0" expand="true">
+                <depend id="246" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="75" name="Penentuan Server" color="#8cb6ce" meeting="false" start="2018-06-19" duration="1" complete="0" thirdDate="2018-06-19" thirdDate-constraint="0" expand="true"/>
+            <task id="87" name="Penentuan Algoritma" color="#8cb6ce" meeting="false" start="2018-06-19" duration="1" complete="0" thirdDate="2018-06-19" thirdDate-constraint="0" expand="true"/>
         </task>
-        <task id="56" name="Membuat Mockup" color="#8cb6ce" meeting="false" start="2018-06-28" duration="2" complete="0" thirdDate="2018-07-16" thirdDate-constraint="0" expand="true"/>
-        <task id="34" name="Desain" color="#8cb6ce" meeting="false" start="2018-07-02" duration="13" complete="0" thirdDate="2018-07-02" thirdDate-constraint="0" expand="true">
-            <task id="4" name="Desain Database" color="#8cb6ce" meeting="false" start="2018-07-02" duration="3" complete="0" thirdDate="2018-07-02" thirdDate-constraint="0" expand="true"/>
-            <task id="17" name="Desain Function &amp; Content" color="#8cb6ce" meeting="false" start="2018-07-05" duration="3" complete="0" thirdDate="2018-07-04" thirdDate-constraint="0" expand="true"/>
-            <task id="10" name="Login" color="#8cb6ce" meeting="false" start="2018-07-10" duration="1" complete="0" thirdDate="2018-07-24" thirdDate-constraint="0" expand="true"/>
-            <task id="76" name="Home Page" color="#8cb6ce" meeting="false" start="2018-07-11" duration="2" complete="0" thirdDate="2018-07-11" thirdDate-constraint="0" expand="true"/>
-            <task id="77" name="Interior Page" color="#8cb6ce" meeting="false" start="2018-07-13" duration="2" complete="0" thirdDate="2018-07-12" thirdDate-constraint="0" expand="true"/>
-            <task id="78" name="Blog Roll  dan Desain Post" color="#8cb6ce" meeting="false" start="2018-07-17" duration="2" complete="0" thirdDate="2018-07-16" thirdDate-constraint="0" expand="true"/>
-            <task id="90" name="Form" color="#8cb6ce" meeting="false" start="2018-07-02" duration="2" complete="0" thirdDate="2018-07-12" thirdDate-constraint="0" expand="true"/>
-            <task id="89" name="Header &amp; Footer" color="#8cb6ce" meeting="false" start="2018-07-04" duration="2" complete="0" thirdDate="2018-07-10" thirdDate-constraint="0" expand="true"/>
-            <task id="11" name="Struktur Menu" color="#8cb6ce" meeting="false" start="2018-07-06" duration="2" complete="0" thirdDate="2018-07-06" thirdDate-constraint="0" expand="true"/>
+        <task id="34" name="Desain" color="#8cb6ce" meeting="false" start="2018-06-20" duration="8" complete="13" thirdDate="2018-07-02" thirdDate-constraint="0" expand="true">
+            <task id="246" name="Membuat Mockup" color="#8cb6ce" meeting="false" start="2018-06-20" duration="1" complete="0" thirdDate="2018-06-20" thirdDate-constraint="0" expand="true"/>
+            <task id="4" name="Desain Database" color="#8cb6ce" meeting="false" start="2018-06-20" duration="2" complete="0" thirdDate="2018-06-20" thirdDate-constraint="0" expand="true"/>
+            <task id="17" name="Desain Function &amp; Content" color="#8cb6ce" meeting="false" start="2018-06-22" duration="6" complete="20" thirdDate="2018-07-04" thirdDate-constraint="0" expand="true">
+                <task id="76" name="Modul Page" color="#8cb6ce" meeting="false" start="2018-06-22" duration="2" complete="100" thirdDate="2018-06-22" thirdDate-constraint="0" expand="true"/>
+                <task id="89" name="Header &amp; Footer" color="#8cb6ce" meeting="false" start="2018-06-26" duration="1" complete="0" thirdDate="2018-06-26" thirdDate-constraint="0" expand="true"/>
+                <task id="11" name="Menu" color="#8cb6ce" meeting="false" start="2018-06-26" duration="1" complete="0" thirdDate="2018-06-26" thirdDate-constraint="0" expand="true"/>
+                <task id="10" name="Modul Login" color="#8cb6ce" meeting="false" start="2018-06-26" duration="1" complete="0" thirdDate="2018-07-10" thirdDate-constraint="0" expand="true"/>
+                <task id="78" name="Modul Komentar" color="#8cb6ce" meeting="false" start="2018-06-27" duration="2" complete="0" thirdDate="2018-06-27" thirdDate-constraint="0" expand="true"/>
+                <task id="90" name="Modul Content" color="#8cb6ce" meeting="false" start="2018-06-28" duration="2" complete="0" thirdDate="2018-06-28" thirdDate-constraint="0" expand="true"/>
+                <task id="260" name="User Profile" color="#8cb6ce" meeting="false" start="2018-06-29" duration="1" complete="0" thirdDate="2018-06-28" thirdDate-constraint="0" expand="true"/>
+            </task>
         </task>
-        <task id="16" name="Membuat Sistem" color="#8cb6ce" meeting="false" start="2018-07-19" duration="20" complete="0" thirdDate="2018-07-24" thirdDate-constraint="0" expand="true">
-            <task id="19" name="Koneksi Database Dengan Sistem" color="#8cb6ce" meeting="false" start="2018-07-19" duration="2" complete="0" thirdDate="2018-07-24" thirdDate-constraint="0" expand="true"/>
-            <task id="21" name="Membuat Fungsi - Fungsi" color="#8cb6ce" meeting="false" start="2018-07-23" duration="3" complete="0" thirdDate="2018-07-24" thirdDate-constraint="0" expand="true"/>
-            <task id="23" name="Sistem Account" color="#8cb6ce" meeting="false" start="2018-07-26" duration="1" complete="0" thirdDate="2018-07-24" thirdDate-constraint="0" expand="true"/>
-            <task id="80" name="Sistem Posting" color="#8cb6ce" meeting="false" start="2018-07-27" duration="2" complete="0" thirdDate="2018-07-27" thirdDate-constraint="0" expand="true"/>
-            <task id="82" name="Sistim Sorting" color="#8cb6ce" meeting="false" start="2018-07-31" duration="1" complete="0" thirdDate="2018-07-30" thirdDate-constraint="0" expand="true"/>
-            <task id="83" name="Sistim Komentar &amp; Chat" color="#8cb6ce" meeting="false" start="2018-08-01" duration="3" complete="0" thirdDate="2018-07-16" thirdDate-constraint="0" expand="true"/>
-            <task id="84" name="Sistim Login &amp; Sign UP" color="#8cb6ce" meeting="false" start="2018-08-06" duration="2" complete="0" thirdDate="2018-07-06" thirdDate-constraint="0" expand="true"/>
-            <task id="85" name="Sistim Notifikasi" color="#8cb6ce" meeting="false" start="2018-08-08" duration="2" complete="0" thirdDate="2018-08-09" thirdDate-constraint="0" expand="true"/>
-            <task id="86" name="CRUD" color="#8cb6ce" meeting="false" start="2018-08-10" duration="2" complete="0" thirdDate="2018-07-16" thirdDate-constraint="0" expand="true"/>
-            <task id="88" name="Responsive Browser and Media" color="#8cb6ce" meeting="false" start="2018-08-14" duration="2" complete="0" thirdDate="2018-08-14" thirdDate-constraint="0" expand="true"/>
+        <task id="16" name="Develop" color="#8cb6ce" meeting="false" start="2018-07-02" duration="8" complete="0" thirdDate="2018-07-24" thirdDate-constraint="0" expand="true">
+            <task id="19" name="Modul Koneksi Database" color="#8cb6ce" meeting="false" start="2018-07-02" duration="1" complete="0" thirdDate="2018-07-02" thirdDate-constraint="0" expand="true"/>
+            <task id="23" name="Modul User &amp; Admin" color="#8cb6ce" meeting="false" start="2018-07-03" duration="1" complete="0" thirdDate="2018-07-03" thirdDate-constraint="0" expand="true"/>
+            <task id="80" name="Modul Post, Delete, Edit" color="#8cb6ce" meeting="false" start="2018-07-04" duration="1" complete="0" thirdDate="2018-07-04" thirdDate-constraint="0" expand="true"/>
+            <task id="82" name="Modul Sorting" color="#8cb6ce" meeting="false" start="2018-07-05" duration="1" complete="0" thirdDate="2018-07-05" thirdDate-constraint="0" expand="true"/>
+            <task id="83" name="Modul Komentar &amp; Chart" color="#8cb6ce" meeting="false" start="2018-07-06" duration="1" complete="0" thirdDate="2018-07-06" thirdDate-constraint="0" expand="true"/>
+            <task id="84" name="Modul Login &amp; Sign UP" color="#8cb6ce" meeting="false" start="2018-07-09" duration="1" complete="0" thirdDate="2018-07-09" thirdDate-constraint="0" expand="true"/>
+            <task id="85" name="Modul Notifikasi Email" color="#8cb6ce" meeting="false" start="2018-07-10" duration="1" complete="0" thirdDate="2018-07-10" thirdDate-constraint="0" expand="true"/>
+            <task id="88" name="Responsive Engine" color="#8cb6ce" meeting="false" start="2018-07-11" duration="1" complete="0" thirdDate="2018-07-11" thirdDate-constraint="0" expand="true"/>
         </task>
-        <task id="45" name="Publishing" color="#8cb6ce" meeting="false" start="2018-08-16" duration="2" complete="0" thirdDate="2018-07-16" thirdDate-constraint="0" expand="true">
-            <task id="48" name="Testing Server" color="#8cb6ce" meeting="false" start="2018-08-16" duration="1" complete="0" thirdDate="2018-08-16" thirdDate-constraint="0" expand="true"/>
-            <task id="6" name="Testing Page" color="#8cb6ce" meeting="false" start="2018-08-17" duration="1" complete="0" thirdDate="2018-07-24" thirdDate-constraint="0" expand="true"/>
-            <task id="49" name="Testing Function" color="#8cb6ce" meeting="false" start="2018-08-16" duration="1" complete="0" thirdDate="2018-08-22" thirdDate-constraint="0" expand="true"/>
-            <task id="219" name="Memasukkan Data" color="#8cb6ce" meeting="false" start="2018-08-16" duration="1" complete="0" thirdDate="2018-07-27" thirdDate-constraint="0" expand="true"/>
+        <task id="45" name="Testing" color="#8cb6ce" meeting="false" start="2018-07-13" duration="6" complete="0" thirdDate="2018-07-16" thirdDate-constraint="0" expand="true">
+            <task id="219" name="Memasukkan Data" color="#8cb6ce" meeting="false" start="2018-07-13" duration="1" complete="0" thirdDate="2018-08-13" thirdDate-constraint="0" expand="true"/>
+            <task id="264" name="Testing &amp; Bug Program" color="#8cb6ce" meeting="false" start="2018-07-13" duration="4" complete="0" thirdDate="2018-07-13" thirdDate-constraint="0" expand="true"/>
+            <task id="48" name="Testing Server" color="#8cb6ce" meeting="false" start="2018-07-13" duration="4" complete="0" thirdDate="2018-07-16" thirdDate-constraint="0" expand="true"/>
+            <task id="271" name="Repairing Program" color="#8cb6ce" meeting="false" start="2018-07-16" duration="5" complete="0" thirdDate="2018-07-16" thirdDate-constraint="0" expand="true">
+                <depend id="281" type="2" difference="0" hardness="Strong"/>
+            </task>
         </task>
-        <task id="41" name="Maintenance" color="#8cb6ce" meeting="false" start="2018-08-28" duration="4" complete="0" thirdDate="2018-07-16" thirdDate-constraint="0" expand="true">
-            <task id="40" name="Testimoni Pelanggan" color="#8cb6ce" meeting="false" start="2018-08-28" duration="1" complete="0" thirdDate="2018-07-16" thirdDate-constraint="0" expand="true"/>
-            <task id="42" name="Update" color="#8cb6ce" meeting="false" start="2018-08-31" duration="1" complete="0" thirdDate="2018-08-31" thirdDate-constraint="0" expand="true"/>
+        <task id="281" name="Publishing" color="#8cb6ce" meeting="false" start="2018-07-23" duration="6" complete="0" thirdDate="2018-07-23" thirdDate-constraint="0" expand="true">
+            <task id="309" name="Training &amp; UAT" color="#8cb6ce" meeting="false" start="2018-07-23" duration="5" complete="0" thirdDate="2018-07-23" thirdDate-constraint="0" expand="true">
+                <depend id="310" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="310" name="Update" color="#8cb6ce" meeting="false" start="2018-07-30" duration="1" complete="0" thirdDate="2018-07-30" thirdDate-constraint="0" expand="true"/>
         </task>
     </tasks>
     <resources>
@@ -124,80 +125,68 @@
         <resource id="1" name="Benny Putra Halim" function="SoftwareDevelopment:8" contacts="" phone=""/>
         <resource id="2" name="Yosias Suparno" function="SoftwareDevelopment:2" contacts="" phone=""/>
         <resource id="3" name="Mega " function="SoftwareDevelopment:4" contacts="" phone=""/>
+        <resource id="4" name="Mega R" function="SoftwareDevelopment:9" contacts="" phone=""/>
     </resources>
     <allocations>
-        <allocation task-id="67" resource-id="0" function="Default:1" responsible="true" load="100.0"/>
-        <allocation task-id="61" resource-id="0" function="Default:1" responsible="true" load="100.0"/>
-        <allocation task-id="62" resource-id="0" function="Default:1" responsible="true" load="100.0"/>
-        <allocation task-id="63" resource-id="0" function="Default:1" responsible="true" load="100.0"/>
-        <allocation task-id="64" resource-id="0" function="Default:1" responsible="true" load="100.0"/>
-        <allocation task-id="65" resource-id="0" function="Default:1" responsible="false" load="100.0"/>
-        <allocation task-id="66" resource-id="0" function="Default:1" responsible="true" load="100.0"/>
         <allocation task-id="71" resource-id="0" function="Default:1" responsible="true" load="100.0"/>
         <allocation task-id="38" resource-id="0" function="Default:1" responsible="true" load="100.0"/>
         <allocation task-id="70" resource-id="0" function="Default:1" responsible="true" load="100.0"/>
         <allocation task-id="74" resource-id="0" function="Default:1" responsible="false" load="100.0"/>
         <allocation task-id="87" resource-id="0" function="Default:1" responsible="false" load="100.0"/>
-        <allocation task-id="69" resource-id="0" function="Default:1" responsible="true" load="100.0"/>
         <allocation task-id="17" resource-id="0" function="Default:1" responsible="false" load="100.0"/>
-        <allocation task-id="4" resource-id="0" function="Default:1" responsible="false" load="100.0"/>
-        <allocation task-id="42" resource-id="0" function="Default:1" responsible="false" load="100.0"/>
-        <allocation task-id="0" resource-id="1" function="SoftwareDevelopment:8" responsible="true" load="100.0"/>
-        <allocation task-id="67" resource-id="1" function="SoftwareDevelopment:8" responsible="false" load="100.0"/>
-        <allocation task-id="54" resource-id="1" function="SoftwareDevelopment:8" responsible="true" load="100.0"/>
-        <allocation task-id="64" resource-id="1" function="SoftwareDevelopment:8" responsible="false" load="100.0"/>
-        <allocation task-id="65" resource-id="1" function="SoftwareDevelopment:8" responsible="true" load="100.0"/>
-        <allocation task-id="61" resource-id="1" function="SoftwareDevelopment:8" responsible="false" load="100.0"/>
-        <allocation task-id="63" resource-id="1" function="SoftwareDevelopment:8" responsible="false" load="100.0"/>
-        <allocation task-id="66" resource-id="1" function="SoftwareDevelopment:8" responsible="false" load="100.0"/>
+        <allocation task-id="234" resource-id="0" function="Default:1" responsible="false" load="100.0"/>
+        <allocation task-id="232" resource-id="0" function="Default:1" responsible="true" load="100.0"/>
+        <allocation task-id="245" resource-id="0" function="Default:1" responsible="true" load="100.0"/>
+        <allocation task-id="75" resource-id="0" function="Default:1" responsible="false" load="100.0"/>
+        <allocation task-id="281" resource-id="0" function="Default:1" responsible="true" load="100.0"/>
+        <allocation task-id="309" resource-id="0" function="Default:1" responsible="true" load="100.0"/>
         <allocation task-id="71" resource-id="1" function="SoftwareDevelopment:8" responsible="false" load="100.0"/>
         <allocation task-id="38" resource-id="1" function="SoftwareDevelopment:8" responsible="false" load="100.0"/>
         <allocation task-id="70" resource-id="1" function="SoftwareDevelopment:8" responsible="false" load="100.0"/>
         <allocation task-id="74" resource-id="1" function="SoftwareDevelopment:8" responsible="false" load="100.0"/>
-        <allocation task-id="69" resource-id="1" function="SoftwareDevelopment:8" responsible="true" load="100.0"/>
         <allocation task-id="219" resource-id="1" function="SoftwareDevelopment:8" responsible="true" load="100.0"/>
-        <allocation task-id="40" resource-id="1" function="SoftwareDevelopment:8" responsible="true" load="100.0"/>
-        <allocation task-id="61" resource-id="2" function="SoftwareDevelopment:9" responsible="false" load="100.0"/>
-        <allocation task-id="63" resource-id="2" function="SoftwareDevelopment:9" responsible="false" load="100.0"/>
-        <allocation task-id="64" resource-id="2" function="SoftwareDevelopment:9" responsible="false" load="100.0"/>
-        <allocation task-id="66" resource-id="2" function="SoftwareDevelopment:9" responsible="false" load="100.0"/>
+        <allocation task-id="234" resource-id="1" function="SoftwareDevelopment:8" responsible="true" load="100.0"/>
+        <allocation task-id="232" resource-id="1" function="SoftwareDevelopment:8" responsible="false" load="100.0"/>
+        <allocation task-id="245" resource-id="1" function="SoftwareDevelopment:8" responsible="false" load="100.0"/>
+        <allocation task-id="75" resource-id="1" function="SoftwareDevelopment:8" responsible="false" load="100.0"/>
+        <allocation task-id="87" resource-id="1" function="SoftwareDevelopment:8" responsible="false" load="100.0"/>
+        <allocation task-id="4" resource-id="1" function="SoftwareDevelopment:8" responsible="true" load="100.0"/>
+        <allocation task-id="281" resource-id="1" function="SoftwareDevelopment:8" responsible="false" load="100.0"/>
         <allocation task-id="71" resource-id="2" function="SoftwareDevelopment:2" responsible="false" load="100.0"/>
-        <allocation task-id="38" resource-id="2" function="SoftwareDevelopment:9" responsible="false" load="100.0"/>
-        <allocation task-id="74" resource-id="2" function="SoftwareDevelopment:9" responsible="true" load="100.0"/>
-        <allocation task-id="75" resource-id="2" function="SoftwareDevelopment:9" responsible="true" load="100.0"/>
-        <allocation task-id="87" resource-id="2" function="SoftwareDevelopment:9" responsible="true" load="100.0"/>
-        <allocation task-id="69" resource-id="2" function="SoftwareDevelopment:9" responsible="false" load="100.0"/>
-        <allocation task-id="56" resource-id="2" function="SoftwareDevelopment:9" responsible="true" load="100.0"/>
-        <allocation task-id="4" resource-id="2" function="SoftwareDevelopment:9" responsible="true" load="100.0"/>
+        <allocation task-id="38" resource-id="2" function="SoftwareDevelopment:2" responsible="false" load="100.0"/>
+        <allocation task-id="74" resource-id="2" function="SoftwareDevelopment:2" responsible="true" load="100.0"/>
+        <allocation task-id="75" resource-id="2" function="SoftwareDevelopment:2" responsible="true" load="100.0"/>
+        <allocation task-id="87" resource-id="2" function="SoftwareDevelopment:2" responsible="true" load="100.0"/>
         <allocation task-id="17" resource-id="2" function="SoftwareDevelopment:9" responsible="true" load="100.0"/>
-        <allocation task-id="10" resource-id="2" function="SoftwareDevelopment:9" responsible="true" load="100.0"/>
-        <allocation task-id="76" resource-id="2" function="SoftwareDevelopment:9" responsible="true" load="100.0"/>
-        <allocation task-id="77" resource-id="2" function="SoftwareDevelopment:9" responsible="true" load="100.0"/>
-        <allocation task-id="78" resource-id="2" function="SoftwareDevelopment:9" responsible="true" load="100.0"/>
-        <allocation task-id="19" resource-id="2" function="SoftwareDevelopment:9" responsible="true" load="100.0"/>
+        <allocation task-id="19" resource-id="2" function="SoftwareDevelopment:2" responsible="true" load="100.0"/>
         <allocation task-id="80" resource-id="2" function="SoftwareDevelopment:2" responsible="true" load="100.0"/>
-        <allocation task-id="82" resource-id="2" function="SoftwareDevelopment:9" responsible="true" load="100.0"/>
-        <allocation task-id="83" resource-id="2" function="SoftwareDevelopment:9" responsible="true" load="100.0"/>
-        <allocation task-id="85" resource-id="2" function="SoftwareDevelopment:9" responsible="true" load="100.0"/>
-        <allocation task-id="42" resource-id="2" function="SoftwareDevelopment:9" responsible="true" load="100.0"/>
-        <allocation task-id="61" resource-id="3" function="SoftwareDevelopment:4" responsible="false" load="100.0"/>
-        <allocation task-id="63" resource-id="3" function="SoftwareDevelopment:4" responsible="false" load="100.0"/>
-        <allocation task-id="64" resource-id="3" function="SoftwareDevelopment:4" responsible="false" load="100.0"/>
-        <allocation task-id="66" resource-id="3" function="SoftwareDevelopment:4" responsible="false" load="100.0"/>
-        <allocation task-id="71" resource-id="3" function="SoftwareDevelopment:10" responsible="false" load="100.0"/>
-        <allocation task-id="38" resource-id="3" function="SoftwareDevelopment:4" responsible="false" load="100.0"/>
-        <allocation task-id="70" resource-id="3" function="SoftwareDevelopment:4" responsible="false" load="100.0"/>
-        <allocation task-id="74" resource-id="3" function="SoftwareDevelopment:4" responsible="false" load="100.0"/>
-        <allocation task-id="69" resource-id="3" function="SoftwareDevelopment:4" responsible="false" load="100.0"/>
+        <allocation task-id="82" resource-id="2" function="SoftwareDevelopment:2" responsible="true" load="100.0"/>
+        <allocation task-id="83" resource-id="2" function="SoftwareDevelopment:2" responsible="true" load="100.0"/>
+        <allocation task-id="85" resource-id="2" function="SoftwareDevelopment:2" responsible="true" load="100.0"/>
+        <allocation task-id="70" resource-id="2" function="SoftwareDevelopment:2" responsible="false" load="100.0"/>
+        <allocation task-id="23" resource-id="2" function="SoftwareDevelopment:2" responsible="true" load="100.0"/>
+        <allocation task-id="84" resource-id="2" function="SoftwareDevelopment:2" responsible="true" load="100.0"/>
+        <allocation task-id="88" resource-id="2" function="SoftwareDevelopment:2" responsible="true" load="100.0"/>
+        <allocation task-id="271" resource-id="2" function="SoftwareDevelopment:2" responsible="true" load="100.0"/>
+        <allocation task-id="309" resource-id="2" function="SoftwareDevelopment:2" responsible="false" load="100.0"/>
+        <allocation task-id="310" resource-id="2" function="SoftwareDevelopment:2" responsible="true" load="100.0"/>
         <allocation task-id="17" resource-id="3" function="SoftwareDevelopment:4" responsible="false" load="100.0"/>
-        <allocation task-id="89" resource-id="3" function="SoftwareDevelopment:4" responsible="false" load="100.0"/>
-        <allocation task-id="90" resource-id="3" function="SoftwareDevelopment:4" responsible="true" load="100.0"/>
-        <allocation task-id="10" resource-id="3" function="SoftwareDevelopment:4" responsible="false" load="100.0"/>
-        <allocation task-id="11" resource-id="3" function="SoftwareDevelopment:4" responsible="true" load="100.0"/>
-        <allocation task-id="80" resource-id="3" function="SoftwareDevelopment:4" responsible="false" load="100.0"/>
         <allocation task-id="48" resource-id="3" function="SoftwareDevelopment:4" responsible="true" load="100.0"/>
-        <allocation task-id="6" resource-id="3" function="SoftwareDevelopment:4" responsible="true" load="100.0"/>
-        <allocation task-id="49" resource-id="3" function="SoftwareDevelopment:4" responsible="true" load="100.0"/>
+        <allocation task-id="264" resource-id="3" function="SoftwareDevelopment:4" responsible="true" load="100.0"/>
+        <allocation task-id="71" resource-id="4" function="SoftwareDevelopment:9" responsible="false" load="100.0"/>
+        <allocation task-id="38" resource-id="4" function="SoftwareDevelopment:9" responsible="false" load="100.0"/>
+        <allocation task-id="70" resource-id="4" function="SoftwareDevelopment:9" responsible="false" load="100.0"/>
+        <allocation task-id="74" resource-id="4" function="SoftwareDevelopment:9" responsible="false" load="100.0"/>
+        <allocation task-id="75" resource-id="4" function="SoftwareDevelopment:9" responsible="false" load="100.0"/>
+        <allocation task-id="87" resource-id="4" function="SoftwareDevelopment:9" responsible="false" load="100.0"/>
+        <allocation task-id="246" resource-id="4" function="SoftwareDevelopment:9" responsible="true" load="100.0"/>
+        <allocation task-id="11" resource-id="4" function="SoftwareDevelopment:9" responsible="true" load="100.0"/>
+        <allocation task-id="89" resource-id="4" function="SoftwareDevelopment:9" responsible="false" load="100.0"/>
+        <allocation task-id="76" resource-id="4" function="SoftwareDevelopment:9" responsible="true" load="100.0"/>
+        <allocation task-id="10" resource-id="4" function="SoftwareDevelopment:9" responsible="false" load="100.0"/>
+        <allocation task-id="78" resource-id="4" function="SoftwareDevelopment:9" responsible="true" load="100.0"/>
+        <allocation task-id="90" resource-id="4" function="SoftwareDevelopment:9" responsible="true" load="100.0"/>
+        <allocation task-id="260" resource-id="4" function="SoftwareDevelopment:9" responsible="true" load="100.0"/>
     </allocations>
     <vacations/>
     <previous/>
